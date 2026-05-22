@@ -1,11 +1,10 @@
+# Project Name
+Pharma-Lakehouse-Portfolio
+
 # Description
 Repo to learn and play around with databricks
 
 # Structure
-
-# Project Name
-
-Repo to learn and play around with databricks
 
 ## Overview
 More info will follow

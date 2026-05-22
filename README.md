@@ -18,11 +18,11 @@ More info will follow
 ## Usage
 
 ## Architecture
-/notebooks    — your Databricks notebooks (exported)
-/data         — raw sample data + README explaining sources
-/docs         — architecture, dataset rationale, decisions log
-/sql          — any standalone SQL
-README.md     — hiring-manager-facing summary
+/notebooks    — your Databricks notebooks (exported)  
+/data         — raw sample data + README explaining sources  
+/docs         — architecture, dataset rationale, decisions log  
+/sql          — any standalone SQL  
+README.md     — hiring-manager-facing summary  
 
 ## License
 GNU GENERAL PUBLIC LICENSE Version 3

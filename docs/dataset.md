@@ -22,4 +22,4 @@ Can process performance be predicted
 - It's a continuous process, not batch — reactor, condenser, compressor, separator, stripper in sequence. 
 
 # Source link or generation script reference
-https://data.mendeley.com/datasets/g2st27k8ww/1
+https://www.kaggle.com/datasets/averkij/tennessee-eastman-process-simulation-dataset

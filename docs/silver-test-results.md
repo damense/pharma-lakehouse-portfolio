@@ -1,1 +1,1 @@
-![alt text](\docs\svg\image.png)
+![Result of the tests](\svg\image.png)

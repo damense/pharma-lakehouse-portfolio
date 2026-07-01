@@ -1,1 +1,1 @@
-![alt text](docs\svg\image.png)
+![alt text](\docs\svg\image.png)

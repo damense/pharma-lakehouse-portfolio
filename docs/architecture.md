@@ -20,8 +20,12 @@ Another table will be generated in which each variable in the fault-free dataset
 
 ## Golden layer
 ### What the layer contains and business questions
-- Table 1-20: change in the process after each fault
-- Table variability: What's the expected variability for each of the variables and what AC do we want to set to identify a drift
-### What transformations happen
-- the fault free df needs appending to each of the faulty tables
-- for each variable in the fault-free dataset, a set of upper and lower limits within which the process works as expected.
+- Table 1: 
+    - Grain: one row per fault_id × variable, 
+    - Columns: fault-free baseline mean, post-fault mean, absolute deviation, % deviation
+    - Answers: "How does each fault affect each variable?" — your 20-table idea, collapsed into one
+- Table 2: 
+    - Grain: one row per variable
+    - Columns: mean, std, UCL/LCL at ±2σ and ±3σ, is_normal, description, unit
+    - Answers: "What are the expected operating ranges and where should alerts trigger?" — your variability/AC table
+

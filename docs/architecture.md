@@ -23,9 +23,9 @@ Another table will be generated in which each variable in the fault-free dataset
 - Table 1: 
     - Grain: one row per fault_id × variable, 
     - Columns: fault-free baseline mean, post-fault mean, absolute deviation, % deviation
-    - Answers: "How does each fault affect each variable?" — your 20-table idea, collapsed into one
+    - Answers: "How does each fault affect each variable?"
 - Table 2: 
     - Grain: one row per variable
     - Columns: mean, std, UCL/LCL at ±2σ and ±3σ, is_normal, description, unit
-    - Answers: "What are the expected operating ranges and where should alerts trigger?" — your variability/AC table
+    - Answers: "What are the expected operating ranges and where should alerts trigger?" 
 
